@@ -16,5 +16,5 @@ SCENARIO("sort")
 	}
 	REQUIRE(a[0][0] == 1); REQUIRE(a[0][1] == 3); REQUIRE(a[0][2] == 4);
 	REQUIRE(a[1][0] == 4); REQUIRE(a[1][1] == 5); REQUIRE(a[1][2] == 6);
-	REQUIRE(a[2][0] == 5); REQUIRE(a[1][1] == 6); REQUIRE(a[2][2] == 7);
+	REQUIRE(a[2][0] == 5); REQUIRE(a[2][1] == 6); REQUIRE(a[2][2] == 7);
 }
